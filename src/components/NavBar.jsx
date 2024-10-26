@@ -1,11 +1,16 @@
-import React from 'react'
+import React from 'react';
+import '../css/NavBar.css'; // Ensure the path is correct
 
-function NavBar() {
+const NavBar = () => {
   return (
-    <div>
-      This is the Navbar
-    </div>
-  )
-}
+    <nav className="navbar">
+      <div className="navbar-container">
+        <button className="home-btn" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
+          Home
+        </button>
+      </div>
+    </nav>
+  );
+};
 
-export default NavBar
+export default NavBar;
