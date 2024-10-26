@@ -1,0 +1,63 @@
+/* Footer Container Styles */
+.school-footer {
+    background-color: #FF8C00; /* Orange background */
+    color: #FFFFFF; /* White text */
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    flex: 1;
+    min-width: 200px;
+    margin: 20px;
+}
+
+.footer-title {
+    color: #FFFFFF;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.footer-description {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.contact-list, .quick-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.contact-list li, .quick-links li {
+    margin-bottom: 8px;
+}
+
+.quick-links a {
+    color: #FFFFFF; /* White text for links */
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.quick-links a:hover {
+    color: #000000; /* Black text on hover */
+}
+
+.footer-bottom {
+    border-top: 1px solid #FFFFFF;
+    padding-top: 20px;
+    margin-top: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 12px;
+}

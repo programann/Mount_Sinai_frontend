@@ -16,10 +16,10 @@
     border-radius: 8px;
   }
   
-  .landing-logo {
+ .landing-logo {
     max-width: 150px;
     margin-bottom: 20px;
-  }
+  } 
   
   h1 {
     font-size: 3rem;
@@ -44,4 +44,47 @@
   .explore-btn:hover {
     background: #ddd;
   }
+
+  /* Styles for the more info section */
+
+
+#more-info{
+    padding: 50px 20px;
+    background-color:#f4f4f4;
+    text-align: center;
+}
+
+.info-content{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.info-image {
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    gap: 30vh;
+    background-image: linear-gradient(to right top, #ffffff, #cccccf, #9b9ca1, #6c6f76, #40454d);
+    
+}
   
+.info-text{
+    max-width: 600px;
+}
+
+
+.info-text h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+.info-text p {
+    font-size: 1.1rem;
+  }
+
+  .more-info-image {
+    max-width: 250px;
+    margin-bottom: 50px;
+  } 
