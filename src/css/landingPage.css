@@ -1,0 +1,47 @@
+.Image {
+    position: relative;
+    background: url('../assets/pexels-pixabay-267586.jpg') no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .overlay {
+    text-align: center;
+    color: white;
+    background: rgba(0, 0, 0, 0.5); /* Dark overlay */
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .landing-logo {
+    max-width: 150px;
+    margin-bottom: 20px;
+  }
+  
+  h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .explore-btn {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #333;
+    background: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
+  .explore-btn:hover {
+    background: #ddd;
+  }
+  
